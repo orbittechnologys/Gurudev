@@ -1,0 +1,62 @@
+/******/
+
+/* Resets */
+
+div.wf * {margin:0px; padding:0px;}
+
+div.wf form {display:inline;}
+
+div.wf ul {list-style:none; margin:0; padding:0;}
+div.wf ul li {background:none; margin:0; padding:0;}
+
+div.wf input {background-color:#ffffff;}
+div.wf textarea {background-color:#ffffff;}
+div.wf select {background-color:#ffffff;}
+
+div.wf table {display:table; width:100%; margin:0px; padding:0px; table-layout:auto; border-collapse:separate;}
+div.wf thead {display:table-header-group;}
+div.wf tbody {display:table-row-group;}
+div.wf table tr {display:table-row; border:0px;}
+div.wf table th {display:table-cell; border:0px;}
+div.wf table td {display:table-cell; border:0px;}
+div.wf table tr:hover td {background-color:#ffffff;}
+
+/******/
+
+/* General */
+
+div.wf {width:100%; position:relative; top:0px; left:0px; /* für "position:absolute" der Coupon-Light-Box */}
+
+div.wf div.wf_box {margin:20px 20px;}
+
+div.wf .wf_clear {clear:both;}
+
+div.wf .wf_suc {color:green; font-weight:bold;}
+div.wf .wf_err {color:red; font-weight:bold;}
+div.wf .wf_bold {color:black; font-weight:bold;}
+div.wf .wf_bright {color:gray;}
+
+div.wf .wf_red {color:red;}
+div.wf .wf_left {text-align:left;}
+div.wf .wf_right {text-align:right;}
+
+div.wf .wf_round {border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+
+div.wf .wf_err_box {margin:0px; padding:10px; border:1px solid #DD3C10; background-color:#FFEBE8;}
+div.wf .wf_exp_box {margin:0px; padding:10px; border:1px solid #E2C822; background-color:#FFF9D7;}
+div.wf .wf_suc_box {margin:0px; padding:10px; border:1px solid #499741; background-color:#D4FFAA;}
+
+div.wf p {line-height:1.5em;}
+
+/******/
+
+/* Locations */
+
+div.wf div.wf_lo_group {margin-bottom:20px;}
+div.wf div.wf_lo_group h2 {font-size:15px; font-weight:bold; margin-bottom:20px; padding-bottom:10px; border-bottom:1px solid gray;}
+
+div.wf div.wf_lo_region {margin-bottom:20px; width:33%; float:left;}
+div.wf div.wf_lo_region h3 {font-size:14px; font-weight:bold;}
+div.wf div.wf_lo_region li {}
+
+/******/

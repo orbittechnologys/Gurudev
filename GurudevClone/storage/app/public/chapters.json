@@ -1,0 +1,6 @@
+HTTP/1.0 200 OK
+Cache-Control: no-cache, private
+Content-Type:  application/json
+Date:          Tue, 28 Nov 2023 06:16:14 GMT
+
+[{"id":54,"course_id":27,"subject_id":37,"chapter":"Test 3","date":"28-10-2023","material":"","video_material":"","slug":"test-3","status":"Active","type":"Paid","amount":0,"description":"","course":{"id":27,"course":"KSP PC (Police Constable)","slug":"ksp-pc-(police-constable)","payment":null}},{"id":52,"course_id":27,"subject_id":37,"chapter":"Test - 02","date":"27-10-2023","material":"","video_material":"","slug":"test--02","status":"Active","type":"Paid","amount":0,"description":"","course":{"id":27,"course":"KSP PC (Police Constable)","slug":"ksp-pc-(police-constable)","payment":null}},{"id":51,"course_id":27,"subject_id":37,"chapter":"Test - 01","date":"26-10-2023","material":"","video_material":"","slug":"test--01","status":"Active","type":"Paid","amount":0,"description":"","course":{"id":27,"course":"KSP PC (Police Constable)","slug":"ksp-pc-(police-constable)","payment":null}}]

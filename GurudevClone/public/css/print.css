@@ -1,0 +1,78 @@
+#collegeinfo{
+    border-collapse:collapse;
+    border: none !important;
+}
+#collegeinfo h4{
+    color:#28436e;
+    margin-bottom: 1px;
+}
+
+
+#printTbl{
+    border-collapse: collapse;
+}
+#printTbl, th, td {
+    border: 0.5px solid #54505a;
+}
+#printTbl thead th{
+    font-size: 13px;
+    background-color: #809fff;
+    color: white;
+    font-weight: bold;
+}
+
+table>tbody>tr>td{
+    font-size: 10px;
+    text-align: center;
+}
+.printingTblHead{
+    border-collapse:collapse;
+    border: none !important;
+}
+.print-grid-container {
+    display: grid;
+    grid-template-columns: auto  auto;
+    padding: 2px;
+    font-size: 13px;
+}
+
+.print-grid-item {
+    padding: 2px;
+    font-weight: 500!important;
+    text-align: left !important;
+}
+.print-grid-item2 {
+
+    padding: 2px;
+    font-weight: 500!important;
+    text-align: right!important;
+}
+a{
+    text-decoration: none !important;
+    color:black;
+}
+.hideOnPrint{
+    display: none;
+}
+#printTbl .avatar{
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    vertical-align: bottom;
+    font-size: .875rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#printTbl .bradius{
+    border-radius: 25%;
+}
+.mr-2, .mx-2{
+    margin-right: 0.5rem !important;
+}

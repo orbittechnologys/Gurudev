@@ -1,0 +1,64 @@
+
+body { background:#ececec; background-size:100%; }
+.wraper { align-items: center;display: flex; flex-wrap: wrap; justify-content: center; min-height: 100vh; position: relative; width: 100%; position:relative; }
+.wraper:after{background:url(https://talenthire.ceipal.com/landing_img/login/loginBg-icons.svg) no-repeat  30px 70px;  background-size:80%; content:""; display:block; width:100%; min-height: 100vh; left:0; top:0; right:0; bottom:0;opacity: 0.6; position:absolute; z-index:-1}
+.signUp-block { width:100%; float:left; position:relative; z-index:2; padding:30px; }
+.signUp-logo { padding:0px 0px 30px; /*padding:40px 0px 20px;*/ margin:0 auto; max-width:900px; text-align:center; }
+.signUp-logo img { width:160px; }
+.signUp-form-block { border-radius:6px; padding:0; min-height:425px; max-width:900px; width:100%; margin:0px auto; background:#3f82db; display: flex; }
+.signUp-title { font-family: 'proxima_nova_bold'; font-size:22px; text-align:left; color:#000; padding-bottom:15px; position:relative; margin-top:-5px; }
+.signUp-title::before { position: absolute; z-index: 1; display:block; top:2px; content: ""; width: 7px; height: 37px; left: -37px; background:#fe0000; }
+.gCaptcha { float:left; margin-top:0px; margin-bottom:10px; background:#f9f9f9; width:100%; text-align:center; min-height: 60px; line-height: 60px; }
+.agree-info { float:left; width:100%; padding:0px 0 0px; font-size:12px; margin-top: -5px; margin-bottom: 15px; color:#999; }
+.links-terms { float:left; padding:10px 0; }
+.copySocialM { float:right; padding:10px 0; }
+.with-glft { text-align:center; }
+.with-glft a { margin-right:3px; display:inline-block; }
+.signin-with-glft { float:left; color:#fff; margin-bottom:10px; }
+.terms-use { width:100%; font-size:12px; color:#fff; max-width:900px; margin:0px auto; }
+.links-terms a { color:#fff; font-weight:500; }
+.signUp-row { float:left; width:100%; margin-bottom:18px; position:relative; }
+.inputstyle { border:none; border-bottom:solid 1px #dadfe3; background:none!important; width:100%; padding:2px 0; font-size:12px; }
+.inputstyle:focus { box-shadow:none!important; }
+.dAcc { float:left; width:100%; text-align:center; color:#666; font-size:13px; padding-top:10px; line-height:24px; }
+.dAcc a { font-weight:500; }
+.signUp-row label { width:100%; margin:0px; position:absolute; top:12px; color:#051152; transition:all 0.2s ease 0s }
+.signUp-row input { background:#fff; width:100%; border:solid 2px #b3bac5; border-radius:3px; padding:5px 10px; height:40px; }
+.form-control, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="email"]:focus { box-shadow: none; }
+.userBlocks label { font-size:13px; color:#aaa; }
+.form-bar:before, .form-bar:after { bottom:0px; content:""; height:1px; position:absolute; transition:all 0.3s ease 0s; width:0; }
+.form-control:focus { border: solid 2px #3f82db; box-shadow:none; outline:medium none; background:#f4f5f7; }
+.crsStare { color: red; }
+input[required] + label { margin-top: 30px !important; }
+input.error { border: 2px solid red !important; }
+#globalFlashMessage { top: 2px; }
+.signUpRightBlock { float:left; padding:40px; text-align:center; color:#fff; min-height:425px; border-radius:0 6px 6px 0; position:relative; }
+.signUpTitle-1 { color:#fff; font-size:18px; text-align:center; line-height:26px; }
+.sText { margin:auto; margin-top:40px; ; margin-bottom:40px; line-height: 20px; max-width:250px; }
+.sText ul { margin:0; padding:0; }
+.sText ul li { background:url(https://talenthire.ceipal.com/landing_img/login/signTick.svg) no-repeat left 3px; padding-left:20px; margin:6px 0; text-align:left; display:block; font-size:14px; }
+.alreadySign { font-size:14px; margin-bottom:50px; }
+.alreadySign a { width:160px; border:solid 1px #fff; border-radius:3px; text-align:center; margin:0 auto; text-transform:uppercase; font-family: 'proxima_nova_semibold'!important; font-size:14px; padding: 8px; color: #fff; margin-top: 15px; }
+.alreadySign a:hover { background:#fff; color:#0052cc; }
+a.thI-btn { display:inline-block; text-align:center; padding:7px 12px; color:#1774ff; border:solid 1px #1774ff; border-radius:3px; margin-right:5px; font-family: 'proxima_nova_semibold'!important; width: 120px; margin-bottom:5px; }
+a.workforce-btn { display:inline-block; text-align:center; padding:7px 12px; color:#08c9e8; border:solid 1px #08c9e8; border-radius:3px; font-family: 'proxima_nova_semibold'!important; width: 120px; }
+a:hover.thI-btn, a:hover.workforce-btn { color:#fff; border-color:#fff; }
+.signUpLeftblock { background:#fff; float:left; padding:30px; border-radius:6px 0 0 6px; }
+.signUpTitle-2 { font-family: 'proxima_nova_bold'; color:#091e44; font-size:20px; line-height:34px; margin:0 auto; margin-bottom:10px; }
+::placeholder {
+	opacity: 1;
+	color:#999; /* Firefox */
+}
+:-ms-input-placeholder {
+	color:#999;
+}
+::-ms-input-placeholder {
+	color: #999;
+}
+button.sign-btn { border: solid 0px #85c800; background:#85c800; padding:10px 14px; text-align:center; color:#fff; border-radius:4px; float:left; width:100%; margin: 10px 0; text-transform:uppercase; font-family: 'proxima_nova_bold'; font-size:14px; }
+button.sign-btn:hover, button.sign-btn:focus { background:#6b9e05; }
+.copySocialM { float:right; padding-top:10px; }
+.copyW { text-align:center; color:#80b7ff; font-size: 12px; margin: auto; position: absolute; bottom: 50px; left: 0; right: 0; }
+.mediaLinks { float:right; }
+.mediaLinks a { color:#fff; margin-left:5px; font-size:16px; margin-top:-2px; display:inline-block; }
+

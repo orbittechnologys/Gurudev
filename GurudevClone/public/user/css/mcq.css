@@ -1,0 +1,74 @@
+
+.mcq-bg-gradint-1{
+    background: linear-gradient( 45deg, #b4ece5, #9de1fb);
+    border-color: #7adafb !important;
+    color: #0e556d  !important;
+}
+.mcq-bg-gradint-1 .btn-mcq{
+    background-color: #59a0b8 !important;
+    color: #ffffff;
+}
+.mcq-bg-gradint-2{
+    background: linear-gradient( 45deg , #fde4c0, #ffce86);
+    border-color: #ffce86 !important;
+    color: #76663b !important;
+}
+.mcq-bg-gradint-2 .btn-mcq{
+    background-color: #ab8a5a !important;
+    color: #ffffff;
+}
+.mcq-bg-gradint-3{
+    background: linear-gradient(   45deg,#f9bcd0, #fb91b5);
+    border-color: #fb91b5 !important;
+    color: #844c5f !important;
+}
+.mcq-bg-gradint-3 .btn-mcq{
+    background-color: #a86179 !important;
+    color: #ffffff;
+}
+.mcq-bg-gradint-4{
+    background: linear-gradient(   45deg, #fdf7c1, #fdf18d);
+    border-color: #fdf18d !important;
+    color: #6f6a3e !important;
+}
+.mcq-bg-gradint-4 .btn-mcq{
+    background-color: #9e9758 !important;
+    color: #ffffff;
+}
+
+.mcq-bg-gradint-5{
+    background: linear-gradient(   45deg, #d3f9a7, #ccfb95);
+    border-color: #ccfb95 !important;
+    color: #627948 !important;
+}
+.mcq-bg-gradint-5 .btn-mcq, .mcq-bg-gradint-5 .btn-mcq:hover{
+    background-color: #7f9c5d !important;
+    color: #ffffff;
+}
+.mcq-bg-gradint-6{
+    background: linear-gradient(   45deg, #fbd0c3, #fbb8a4);
+    border-color: #fbb8a4 !important;
+    color: #684c44 !important;
+}
+.mcq-bg-gradint-6 .btn-mcq, .mcq-bg-gradint-6 .btn-mcq:hover{
+    background-color: #9a7165 !important;
+    color: #ffffff;
+}
+.mcq-bg-gradint-7{
+    background: linear-gradient(            45deg  , #fadaff, #ec90fd);
+    border-color: #ec90fd !important;
+    color: #673f6e !important;
+}
+.mcq-bg-gradint-7 .btn-mcq, .mcq-bg-gradint-7 .btn-mcq:hover{
+    background-color: #90589a !important;
+    color: #ffffff;
+}
+.mcq-bg-gradint-8{
+    background: linear-gradient(   45deg, #b5bffb, #aab7ff););
+    border-color: #aab7ff !important;
+    color: #404560 !important;
+}
+.mcq-bg-gradint-8 .btn-mcq, .mcq-bg-gradint-8 .btn-mcq:hover{
+    background-color: #6a729f !important;
+    color: #ffffff;
+}
